@@ -16,3 +16,16 @@ class DataIngestionTrainingPipeline:
         data_ingestion.download_file()
         data_ingestion.extract_zip_file()
 
+#for dvc code
+# if __name__ == '__main__':
+#     try:
+#         logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+        
+#         obj = DataIngestionTrainingPipeline()
+#         obj.main()
+        
+#         logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+        
+#     except Exception as e:
+#         logger.exception(e)
+#         raise e

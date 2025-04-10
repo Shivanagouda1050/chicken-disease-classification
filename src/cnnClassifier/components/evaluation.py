@@ -6,6 +6,9 @@ import mlflow
 import mlflow.keras
 from urllib.parse import urlparse
 
+import dagshub
+dagshub.init(repo_owner='Shivanagouda1050', repo_name='chicken-disease-classification', mlflow=True)
+
 
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
@@ -45,7 +48,7 @@ class Evaluation:
     def evaluation(self):
         self.model = self.load_model(self.config.path_of_model)
         self._valid_generator()
-        self.score = model.evaluate(self.valid_generator)
+        self.score = self.model.evaluate(self.valid_generator)
 
     
     def save_score(self):
@@ -73,8 +76,6 @@ class Evaluation:
                 mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
             else:
                 mlflow.keras.log_model(self.model, "model")
-
-    
 
     
 

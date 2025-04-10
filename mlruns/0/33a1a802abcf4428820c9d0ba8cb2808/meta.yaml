@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ASUS/chicken-disease-classification/mlruns/0/33a1a802abcf4428820c9d0ba8cb2808/artifacts
+end_time: 1744274527010
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 33a1a802abcf4428820c9d0ba8cb2808
+run_name: unruly-newt-764
+run_uuid: 33a1a802abcf4428820c9d0ba8cb2808
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744274515547
+status: 3
+tags: []
+user_id: ASUS

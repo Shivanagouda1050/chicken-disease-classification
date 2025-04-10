@@ -21,3 +21,17 @@ class ModelTrainingPipeline:
         training.train_valid_generator()
         training.train()
 
+# #for dvc code
+
+# if __name__ == '__main__':
+#     try:
+#         logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+        
+#         obj = ModelTrainingPipeline()
+#         obj.main()
+        
+#         logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+        
+#     except Exception as e:
+#         logger.exception(e)
+#         raise e

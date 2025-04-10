@@ -1,0 +1,24 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.11.0
+- pip<=22.3
+- pip:
+  - mlflow<3,>=2.2
+  - boto3==1.37.31
+  - cloudpickle==2.2.1
+  - colorama==0.4.6
+  - filelock==3.18.0
+  - fsspec==2025.3.2
+  - numpy==1.23.5
+  - packaging==23.2
+  - pandas==2.2.3
+  - pillow==11.1.0
+  - protobuf==4.25.6
+  - pydot==3.0.4
+  - pygments==2.19.1
+  - requests==2.32.3
+  - scipy==1.15.2
+  - tensorflow-intel==2.12.0
+  - tensorflow==2.12.0
+name: mlflow-env

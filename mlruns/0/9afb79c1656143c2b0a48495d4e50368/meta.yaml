@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ASUS/chicken-disease-classification/mlruns/0/9afb79c1656143c2b0a48495d4e50368/artifacts
+end_time: 1744274327910
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9afb79c1656143c2b0a48495d4e50368
+run_name: ambitious-bear-656
+run_uuid: 9afb79c1656143c2b0a48495d4e50368
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744274316043
+status: 3
+tags: []
+user_id: ASUS
